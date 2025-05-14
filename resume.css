@@ -1,0 +1,59 @@
+.head{
+    color: blue;
+    background-color: yellowgreen;
+}
+#details{
+    color: darkblue;
+    background-color: gold;
+}
+#head1{
+    color: blue;
+    background-color:aqua ;
+}
+.project{
+    color: navy;
+    background-color: wheat;
+}
+.tech{
+    color: green;
+    background-color: cornsilk;
+}
+.project1{
+    color: blue;
+   background-color: snow;
+}
+.tech{
+    color: green;
+    background-color: bisque;
+   
+   
+}
+#a{
+    background-color: yellow;
+}
+#b{
+    background-color: yellow;
+}
+#c{
+    background-color: yellow;
+}
+#d{
+    background-color: yellow;
+}
+#e{
+    background-color: yellow;
+}
+#f{
+    background-color: yellow;
+}
+#g{
+    color: blue;
+    background-color: chartreuse;
+}
+#h{
+    color: darkred;
+    background-color: yellow;
+}
+*{
+    border: 2px;
+}

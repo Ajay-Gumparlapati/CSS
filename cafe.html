@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3schoolsTemplate</title>
+    <style>
+        .header {
+            background-color: black;
+            top: 0px;
+            position: fixed;
+            width: 100%;
+            padding: 10px;
+            z-index: 1000;
+            height: 40px;
+        }
+
+        .navbar {
+            display: inline-block;
+            /* margin-left: 800px; */
+            color: white;
+
+        }
+
+        .site {
+            display: inline-block;
+            color: black;
+        }
+
+        .text {
+            position: absolute;
+            top: 90%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: black;
+            padding: 10px;
+
+        }
+
+        .secondtext {
+            position: absolute;
+            top: 95%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+        }
+
+        .aboutcafe {
+            text-align: center;
+        }
+
+        .drink {
+            margin-left: 250px;
+            display: inline-block;
+            text-align: left;
+
+        }
+
+        .eat {
+            text-align: left;
+            display: inline-block;
+
+        }
+
+        .menucard {
+            /* border: 2px solid blue; */
+            text-align: center;
+            border-radius: 10px;
+
+        }
+
+        .location {
+            text-align: center;
+           
+        }
+        input {
+            width: 60%;
+            height: 40px;
+         background-color: aliceblue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header" >
+        <div class="navbar">
+            <span style="margin-right: 320px;"><a href="#home"><button>Home</button></a></span>
+            <span style="margin-right: 300px;"><a href="#about"><button>About</button></a></span>
+            <span style="margin-right: 350px;"><a href="#menu"><button>Menu</button></a></span>
+            <span><a href="#where"><button>Where</button></a></span>
+        </div>
+    </div>
+    <div class="main" id="home">
+        <img src="https://media.istockphoto.com/id/1344964491/photo/cafe-interior-with-leather-armchairs-round-tables-and-pendant-lights.webp?s=1024x1024&w=is&k=20&c=fI1b_5fE0ALJVDFEO7zmOWTzoHq6akR1DyarLd5JecA=" alt="" width="100%" height="600px">
+        <div class="secondtext">
+            <p><b>Open from 6am to 9pm</b></p>
+        </div>
+        <div class="text">
+            <h1>The <span>Cafe</span></h1>
+
+        </div>
+    </div>
+    <div class="aboutcafe" id="about">
+        <h2><span style="background-color: black ; color: white;">About Cafe</span></h2>
+        <p>
+        <pre>
+             The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+             consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et 
+             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+             laboris nisi ut aliquip ex ea commodo consequat.In addition to our full espresso 
+             and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, 
+             as well as a selection of sides and salads and other good stuff.</pre>
+        </p>
+        <pre> "Use products from nature for what it's worth - but never too early, nor too late." 
+ Fresh is the new sweet.
+ Chef, Coffeeist and Owner: Liam Brown</pre>
+        <img src="https://www.w3schools.com/w3images/coffeeshop.jpg" alt="">
+        <p><b>Opening hours:</b> everyday from 6am to 5pm.</p>
+        <p><b>Address:</b> 15 Adr street, 5015, NY</p>
+    </div> 
+    <div class="menucard" id="menu">
+        <h2><span style="background-color: black ; color: white;">The Menu</span></h2>
+        <div class="eat">
+            <h2>Eat</h2>
+            <b>Bread Basket</b>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <b>Honey Almond Granola with Fruits </b>
+            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <b>Belgian Waffle</b>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <b>Blueberry Pancakes</b>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+        </div>
+        <div class="drink">
+            <h3>Drink</h3>
+            <b>Coffee</b>
+            <p>Regular coffee 2.50</p>
+            <b>Chocolato</b>
+            <p>Chocolate espresso with milk 4.50</p>
+            <b>Corretto</b>
+            <p>Whiskey and coffee 5.00</p>
+            <b>Soda</b>
+            <p>Coke, Sprite, Fanta, etc. 2.50</p>
+
+        </div>
+        <br><br><br>
+        <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" alt="">
+        <br><br>
+    </div>
+    <div class="location" id="where">
+        <h2><span style="background-color: black; color: white;">WHERE TO FIND US</span></h2>
+        <pre>Find us at some address at some place.</pre>
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="" width="70%"><br>
+        <p><b><span style="background-color: black; color: white;">Fli!</span></b>
+            <pre>We offer full-service catering for any event, large or small. We understand 
+            your needs and we will cater the food to satisfy the biggerst criteria of them 
+            all, both look and taste.</pre></p>
+            <p><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+             <form>
+            <input type="text" placeholder="Name" required><br><br>
+            <input type="text" placeholder="How many people" required><br><br>
+            <input type="date" placeholder="16-11-2020" required><br><br>
+            <input type="text" placeholder="message/Special reqirements" required><br><br>
+        </form>
+        <button>Send Message</button>
+    <p style="text-align: center; background-color: azure; color: black; height: 80px; ">Powerd By <a
+            href="https://www.w3schools.com/w3css/default.asp"> <u>link</u></a></p>
+    </div>
+</body>
+
+</html>
